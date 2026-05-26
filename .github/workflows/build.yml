@@ -1,0 +1,26 @@
+name: Build Loon CN DNS Plugin
+
+on:
+  schedule:
+    - cron: "20 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate plugin
+        run: python3 convert_cn_dns_to_loon.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CN-DNS-Alidns.plugin
+          git commit -m "Update Loon CN DNS plugin" || exit 0
+          git push
