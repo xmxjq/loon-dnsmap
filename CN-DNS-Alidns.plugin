@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=5487
+#!suffix_rules=5488
 #!exact_rules=70
 #!ignored_rules=3
-#!updated=2026-05-26 07:12:32 UTC
+#!updated=2026-05-26 20:58:30 UTC
 
 [Host]
 ads3-normal-hl.zijieapi.com = server:https://223.5.5.5/dns-query
@@ -718,6 +718,8 @@ xtratime.qcomgeo2.com = server:https://223.5.5.5/dns-query
 *.885.com = server:https://223.5.5.5/dns-query
 88cdn.com = server:https://223.5.5.5/dns-query
 *.88cdn.com = server:https://223.5.5.5/dns-query
+88cha.com = server:https://223.5.5.5/dns-query
+*.88cha.com = server:https://223.5.5.5/dns-query
 8btc.com = server:https://223.5.5.5/dns-query
 *.8btc.com = server:https://223.5.5.5/dns-query
 900.la = server:https://223.5.5.5/dns-query
