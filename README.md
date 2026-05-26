@@ -1,6 +1,6 @@
 # loon-dnsmap
 
-把 [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) 的 `accelerated-domains.china.conf` 转换成 Loon 可导入的 `[Host]` DNS 映射规则，并将命中的国内域名交给 AliDNS DoH 解析：
+把 [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) 的 `geosite:cn` 转换成 Loon 可导入的 `[Host]` DNS 映射规则，并将命中的国内域名交给 AliDNS DoH 解析：
 
 ```text
 https://223.5.5.5/dns-query
@@ -37,16 +37,16 @@ python3 convert_cn_dns_to_loon.py
 可通过环境变量覆盖源、DoH 地址或输出文件：
 
 ```bash
-SOURCE_URL="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf" \
+SOURCE="v2fly-cn" \
 DOH_SERVER="https://223.5.5.5/dns-query" \
 OUTPUT_FILE="CN-DNS-Alidns.plugin" \
 python3 convert_cn_dns_to_loon.py
 ```
 
-转换规则：
+转换规则示例：
 
 ```text
-server=/baidu.com/114.114.114.114
+baidu.com
 ```
 
 会生成：
@@ -55,6 +55,8 @@ server=/baidu.com/114.114.114.114
 baidu.com = server:https://223.5.5.5/dns-query
 *.baidu.com = server:https://223.5.5.5/dns-query
 ```
+
+也可以用 `SOURCE=dnsmasq-china-list` 读取 `felixonmars/dnsmasq-china-list` 的 `accelerated-domains.china.conf`，但它会生成十万级 `[Host]` 映射，可能导致 Loon 启动 VPN 时反复重启，不建议直接导入。
 
 ## 自动更新
 
