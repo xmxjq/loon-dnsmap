@@ -5,7 +5,7 @@
 #!suffix_rules=5686
 #!exact_rules=70
 #!ignored_rules=3
-#!updated=2026-06-10 21:11:48 UTC
+#!updated=2026-06-11 21:08:50 UTC
 
 [Host]
 ads3-normal-hl.zijieapi.com = server:https://223.5.5.5/dns-query
