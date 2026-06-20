@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=5734
+#!suffix_rules=5735
 #!exact_rules=70
 #!ignored_rules=3
-#!updated=2026-06-19 20:49:05 UTC
+#!updated=2026-06-20 20:47:21 UTC
 
 [Host]
 ads3-normal-hl.zijieapi.com = server:https://223.5.5.5/dns-query
@@ -7194,6 +7194,8 @@ myshow360.net = server:https://223.5.5.5/dns-query
 *.myshow360.net = server:https://223.5.5.5/dns-query
 mysiteres.com = server:https://223.5.5.5/dns-query
 *.mysiteres.com = server:https://223.5.5.5/dns-query
+mysqil.com = server:https://223.5.5.5/dns-query
+*.mysqil.com = server:https://223.5.5.5/dns-query
 myypark.com = server:https://223.5.5.5/dns-query
 *.myypark.com = server:https://223.5.5.5/dns-query
 myyx618.com = server:https://223.5.5.5/dns-query
