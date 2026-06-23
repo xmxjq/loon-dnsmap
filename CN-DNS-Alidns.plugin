@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=5779
+#!suffix_rules=5780
 #!exact_rules=70
 #!ignored_rules=3
-#!updated=2026-06-22 21:17:32 UTC
+#!updated=2026-06-23 21:00:20 UTC
 
 [Host]
 ads3-normal-hl.zijieapi.com = server:https://223.5.5.5/dns-query
@@ -6290,6 +6290,8 @@ kuqin.com = server:https://223.5.5.5/dns-query
 *.kuqin.com = server:https://223.5.5.5/dns-query
 kurobbs.com = server:https://223.5.5.5/dns-query
 *.kurobbs.com = server:https://223.5.5.5/dns-query
+kurogame-service.com = server:https://223.5.5.5/dns-query
+*.kurogame-service.com = server:https://223.5.5.5/dns-query
 kurogame.com = server:https://223.5.5.5/dns-query
 *.kurogame.com = server:https://223.5.5.5/dns-query
 kurogame.net = server:https://223.5.5.5/dns-query
