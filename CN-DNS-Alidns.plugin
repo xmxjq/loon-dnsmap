@@ -5,7 +5,7 @@
 #!suffix_rules=5798
 #!exact_rules=74
 #!ignored_rules=3
-#!updated=2026-06-27 20:40:50 UTC
+#!updated=2026-06-28 20:42:56 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -6114,6 +6114,8 @@ kimi.com = server:https://223.5.5.5/dns-query
 *.kimi.com = server:https://223.5.5.5/dns-query
 kimiss.com = server:https://223.5.5.5/dns-query
 *.kimiss.com = server:https://223.5.5.5/dns-query
+kimxz.com = server:https://223.5.5.5/dns-query
+*.kimxz.com = server:https://223.5.5.5/dns-query
 kingdee.com = server:https://223.5.5.5/dns-query
 *.kingdee.com = server:https://223.5.5.5/dns-query
 kinghomechina.com = server:https://223.5.5.5/dns-query
@@ -6176,8 +6178,6 @@ ks-live.com = server:https://223.5.5.5/dns-query
 *.ks-live.com = server:https://223.5.5.5/dns-query
 ksapisrv.com = server:https://223.5.5.5/dns-query
 *.ksapisrv.com = server:https://223.5.5.5/dns-query
-kscord.com = server:https://223.5.5.5/dns-query
-*.kscord.com = server:https://223.5.5.5/dns-query
 kskwai.com = server:https://223.5.5.5/dns-query
 *.kskwai.com = server:https://223.5.5.5/dns-query
 ksmobile.com = server:https://223.5.5.5/dns-query
