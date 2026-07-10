@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=5991
+#!suffix_rules=5992
 #!exact_rules=74
 #!ignored_rules=3
-#!updated=2026-07-09 21:47:22 UTC
+#!updated=2026-07-10 21:28:59 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -913,6 +913,8 @@ acwifi.net = server:https://223.5.5.5/dns-query
 *.acwifi.net = server:https://223.5.5.5/dns-query
 acwing.com = server:https://223.5.5.5/dns-query
 *.acwing.com = server:https://223.5.5.5/dns-query
+adacpp.com = server:https://223.5.5.5/dns-query
+*.adacpp.com = server:https://223.5.5.5/dns-query
 adbkwai.com = server:https://223.5.5.5/dns-query
 *.adbkwai.com = server:https://223.5.5.5/dns-query
 adkwai.com = server:https://223.5.5.5/dns-query
