@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6087
+#!suffix_rules=6088
 #!exact_rules=75
 #!ignored_rules=3
-#!updated=2026-07-28 21:33:25 UTC
+#!updated=2026-07-29 21:13:07 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -6978,6 +6978,8 @@ lsplayer.com = server:https://223.5.5.5/dns-query
 *.lsplayer.com = server:https://223.5.5.5/dns-query
 lu.com = server:https://223.5.5.5/dns-query
 *.lu.com = server:https://223.5.5.5/dns-query
+lubiao.wiki = server:https://223.5.5.5/dns-query
+*.lubiao.wiki = server:https://223.5.5.5/dns-query
 luckincoffeecdn.com = server:https://223.5.5.5/dns-query
 *.luckincoffeecdn.com = server:https://223.5.5.5/dns-query
 luckyair.net = server:https://223.5.5.5/dns-query
