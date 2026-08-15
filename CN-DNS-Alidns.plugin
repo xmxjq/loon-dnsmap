@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6346
+#!suffix_rules=6348
 #!exact_rules=76
 #!ignored_rules=3
-#!updated=2026-08-14 20:30:08 UTC
+#!updated=2026-08-15 20:28:52 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -1427,6 +1427,8 @@ appinn.com = server:https://223.5.5.5/dns-query
 *.appinn.com = server:https://223.5.5.5/dns-query
 appjiagu.com = server:https://223.5.5.5/dns-query
 *.appjiagu.com = server:https://223.5.5.5/dns-query
+applogcdn.com = server:https://223.5.5.5/dns-query
+*.applogcdn.com = server:https://223.5.5.5/dns-query
 applysquare.com = server:https://223.5.5.5/dns-query
 *.applysquare.com = server:https://223.5.5.5/dns-query
 applysquare.net = server:https://223.5.5.5/dns-query
@@ -8953,6 +8955,8 @@ sealsuite.com = server:https://223.5.5.5/dns-query
 *.sealsuite.com = server:https://223.5.5.5/dns-query
 sealsuite.net = server:https://223.5.5.5/dns-query
 *.sealsuite.net = server:https://223.5.5.5/dns-query
+searchpstatp.com = server:https://223.5.5.5/dns-query
+*.searchpstatp.com = server:https://223.5.5.5/dns-query
 searchstatic.com = server:https://223.5.5.5/dns-query
 *.searchstatic.com = server:https://223.5.5.5/dns-query
 searchtoutiaolive.com = server:https://223.5.5.5/dns-query
