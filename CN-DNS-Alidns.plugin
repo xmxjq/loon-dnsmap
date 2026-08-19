@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6358
+#!suffix_rules=6357
 #!exact_rules=76
 #!ignored_rules=3
-#!updated=2026-08-18 20:29:05 UTC
+#!updated=2026-08-19 20:29:48 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -7753,8 +7753,6 @@ monika.love = server:https://223.5.5.5/dns-query
 *.monika.love = server:https://223.5.5.5/dns-query
 moocollege.com = server:https://223.5.5.5/dns-query
 *.moocollege.com = server:https://223.5.5.5/dns-query
-moonshot.ai = server:https://223.5.5.5/dns-query
-*.moonshot.ai = server:https://223.5.5.5/dns-query
 moonvy.com = server:https://223.5.5.5/dns-query
 *.moonvy.com = server:https://223.5.5.5/dns-query
 moonvy.cool = server:https://223.5.5.5/dns-query
