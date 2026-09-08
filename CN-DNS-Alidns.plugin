@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6416
+#!suffix_rules=6418
 #!exact_rules=76
 #!ignored_rules=3
-#!updated=2026-09-07 20:26:47 UTC
+#!updated=2026-09-08 20:27:06 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -12085,6 +12085,8 @@ yuanbei.biz = server:https://223.5.5.5/dns-query
 *.yuanbei.biz = server:https://223.5.5.5/dns-query
 yuanfudao.com = server:https://223.5.5.5/dns-query
 *.yuanfudao.com = server:https://223.5.5.5/dns-query
+yuanqidesk.com = server:https://223.5.5.5/dns-query
+*.yuanqidesk.com = server:https://223.5.5.5/dns-query
 yuanshen.com = server:https://223.5.5.5/dns-query
 *.yuanshen.com = server:https://223.5.5.5/dns-query
 yuansouti.com = server:https://223.5.5.5/dns-query
@@ -12319,6 +12321,8 @@ zhenai.com = server:https://223.5.5.5/dns-query
 *.zhenai.com = server:https://223.5.5.5/dns-query
 zhfund.com = server:https://223.5.5.5/dns-query
 *.zhfund.com = server:https://223.5.5.5/dns-query
+zhhainiao.com = server:https://223.5.5.5/dns-query
+*.zhhainiao.com = server:https://223.5.5.5/dns-query
 zhi10.com = server:https://223.5.5.5/dns-query
 *.zhi10.com = server:https://223.5.5.5/dns-query
 zhibo8.cc = server:https://223.5.5.5/dns-query
