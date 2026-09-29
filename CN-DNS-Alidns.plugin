@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6484
+#!suffix_rules=6485
 #!exact_rules=77
 #!ignored_rules=3
-#!updated=2026-09-28 20:30:03 UTC
+#!updated=2026-09-29 20:32:30 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -3126,6 +3126,8 @@ cnanzhi.com = server:https://223.5.5.5/dns-query
 *.cnanzhi.com = server:https://223.5.5.5/dns-query
 cnb.cool = server:https://223.5.5.5/dns-query
 *.cnb.cool = server:https://223.5.5.5/dns-query
+cnb.space = server:https://223.5.5.5/dns-query
+*.cnb.space = server:https://223.5.5.5/dns-query
 cnbksy.com = server:https://223.5.5.5/dns-query
 *.cnbksy.com = server:https://223.5.5.5/dns-query
 cnblogs.com = server:https://223.5.5.5/dns-query
