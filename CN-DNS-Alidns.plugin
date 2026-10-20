@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6485
+#!suffix_rules=6487
 #!exact_rules=77
 #!ignored_rules=3
-#!updated=2026-10-19 23:44:45 UTC
+#!updated=2026-10-20 23:12:03 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -9778,6 +9778,10 @@ sznews.com = server:https://223.5.5.5/dns-query
 *.sznews.com = server:https://223.5.5.5/dns-query
 szpgm.com = server:https://223.5.5.5/dns-query
 *.szpgm.com = server:https://223.5.5.5/dns-query
+szu.app = server:https://223.5.5.5/dns-query
+*.szu.app = server:https://223.5.5.5/dns-query
+szu.moe = server:https://223.5.5.5/dns-query
+*.szu.moe = server:https://223.5.5.5/dns-query
 szzfgjj.com = server:https://223.5.5.5/dns-query
 *.szzfgjj.com = server:https://223.5.5.5/dns-query
 t00ls.cc = server:https://223.5.5.5/dns-query
