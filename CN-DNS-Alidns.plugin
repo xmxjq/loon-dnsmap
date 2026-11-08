@@ -5,7 +5,7 @@
 #!suffix_rules=6584
 #!exact_rules=79
 #!ignored_rules=3
-#!updated=2026-11-07 23:38:55 UTC
+#!updated=2026-11-08 23:45:41 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
