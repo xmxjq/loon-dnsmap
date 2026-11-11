@@ -2,10 +2,10 @@
 #!desc=Use AliDNS DoH for China domains from v2fly/domain-list-community geosite:cn
 #!source=https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn
 #!doh=https://223.5.5.5/dns-query
-#!suffix_rules=6584
+#!suffix_rules=6585
 #!exact_rules=79
 #!ignored_rules=3
-#!updated=2026-11-10 02:45:09 UTC
+#!updated=2026-11-11 00:40:18 UTC
 
 [Host]
 account-cn.alibabacloud.com = server:https://223.5.5.5/dns-query
@@ -8264,6 +8264,8 @@ ngabbs.com = server:https://223.5.5.5/dns-query
 *.ngabbs.com = server:https://223.5.5.5/dns-query
 ngacn.cc = server:https://223.5.5.5/dns-query
 *.ngacn.cc = server:https://223.5.5.5/dns-query
+nia-teams.com = server:https://223.5.5.5/dns-query
+*.nia-teams.com = server:https://223.5.5.5/dns-query
 nic.xin = server:https://223.5.5.5/dns-query
 *.nic.xin = server:https://223.5.5.5/dns-query
 nicaifu.com = server:https://223.5.5.5/dns-query
